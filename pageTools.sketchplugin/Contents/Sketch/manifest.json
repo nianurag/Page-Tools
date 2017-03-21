@@ -1,0 +1,23 @@
+{
+  "name": "Page Tools",
+  "identifier": "com.sketchapp.PageTools",
+  "description": "Simple shortcuts to work with pages in Sketch App.",
+  "version": "0.0.1",
+  "author": "Anurag Adhikary",
+  "authorEmail": "nianurag@gmail.com",
+  "homepage": "https://github.com/nianurag/Page-Tools/",
+  "compatibleVersion": "40",
+  "bundleVersion": "1",
+  "commands": [{
+    "script": "main.js",
+    "handler": "createPage",
+    "shortcut": "cmd alt n",
+    "name": "Create new Page",
+    "identifier": "create-new-page"
+  }],
+  "menu": {
+    "items": [
+      "create-new-page"
+    ]
+  }
+}
