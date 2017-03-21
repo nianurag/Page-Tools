@@ -26,8 +26,10 @@ var switchPages = function(context) {
 
 	if (current_page_index > 0) {
 		[doc setCurrentPage:pages[current_page_index-1]]
-		sketchToast(doc, "Page chnaged to " + current_page)
-		debug("Page chnaged to " + current_page)
+		sketchToast(doc, "Page changed to " + current_page)
 	}
-	else [doc setCurrentPage:pages[number_pages-1]]
+	else {
+		[doc setCurrentPage:pages[number_pages-1]]
+		sketchToast(doc, "Page changed to " + current_page)
+	}
 }

@@ -2,7 +2,7 @@
   "name": "Page Tools",
   "identifier": "com.sketchapp.PageTools",
   "description": "Simple shortcuts to work with pages in Sketch App.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Anurag Adhikary",
   "authorEmail": "nianurag@gmail.com",
   "homepage": "https://github.com/nianurag/Page-Tools/",
@@ -17,7 +17,7 @@
   }, {
     "script": "main.js",
     "handler": "switchPages",
-    "shortcut": "cmd alt m",
+    "shortcut": "cmd alt ,",
     "name": "Switch Pages",
     "identifier": "switch-page"
   }],
