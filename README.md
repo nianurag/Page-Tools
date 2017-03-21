@@ -1,5 +1,4 @@
 ## Simple shortcuts to work with pages in Sketch App.
-***
 
 ### List of Shortcuts [WIP]
 
