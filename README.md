@@ -7,7 +7,7 @@
 | Command | Action |
 |:-------:|:------:|
 |`cmd + alt + n`| Create New Page|
-| `cmd + alt + m` | Switch Pages|
+| `cmd + alt + ,` | Switch Pages|
 
 ##### Feel free to ask for new features 🙂
 
