@@ -14,10 +14,17 @@
     "shortcut": "cmd alt n",
     "name": "Create new Page",
     "identifier": "create-new-page"
+  }, {
+    "script": "main.js",
+    "handler": "switchPages",
+    "shortcut": "cmd alt m",
+    "name": "Switch Pages",
+    "identifier": "switch-page"
   }],
   "menu": {
     "items": [
-      "create-new-page"
+      "create-new-page",
+      "switch-page"
     ]
   }
 }
